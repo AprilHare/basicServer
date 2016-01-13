@@ -4,10 +4,11 @@
 ## Installation
 
 Requirements: python, pip, virtualenv  
-1. git clone   
+
+1. git clone
 2. Make and activate the virtualenv. bashaliases aliases activate to the current directory:
-  + $ source bashaliases  
-  + $ activate  
+    + $ source bashaliases
+    + $ activate
 3. pip install -r requirements.txt  
 
 
