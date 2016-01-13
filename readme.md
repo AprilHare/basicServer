@@ -17,11 +17,9 @@ Requirements: python, pip, virtualenv
 ### Running 
 ####Local:  
 
-#####for the most recent git commit (?) :  
-    foreman start web  
-        or simply  
-    foreman start  
-#####for the current version:  
+#####Any of the following work (with foreman installed):  
+foreman start web  
+foreman start  
 ./citeMapper.py  
 
 ####Heroku:  
