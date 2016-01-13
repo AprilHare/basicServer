@@ -1,0 +1,1 @@
+web: gunicorn citeMapper:app --log-file=-
