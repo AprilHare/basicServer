@@ -20,7 +20,7 @@ Requirements: python, pip, virtualenv
 #####Any of the following work (with foreman installed):  
 foreman start web  
 foreman start  
-./citeMapper.py  
+./basicServer.py  
 
 ####Heroku:  
 heroku ps:scale web=1  
