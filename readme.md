@@ -17,12 +17,10 @@ Requirements: python, pip, virtualenv
 ### Running 
 ####Local:  
 
-#####for the most recent git commit (?) :  
-    foreman start web  
-        or simply  
-    foreman start  
-#####for the current version:  
-./citeMapper.py  
+#####Any of the following work (with foreman installed):  
+foreman start web  
+foreman start  
+./basicServer.py  
 
 ####Heroku:  
 heroku ps:scale web=1  
