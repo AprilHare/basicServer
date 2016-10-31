@@ -28,6 +28,10 @@ heroku open
 
 
 
+### license
+This server uses the Bootstrap package, distributed under the MIT license.
+
+
 
 
 # Heroku's Guide 
