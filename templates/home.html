@@ -1,12 +1,25 @@
 {% extends "layout.html" %}
 {% block subtitle %} Home {% endblock %}
+
+{% block includes %}
+<script type="text/javascript">
+$(document).ready( function () {
+    $('#navbar ul li:eq(0)').addClass('active')
+});
+</script>
+{% endblock %}
+
 {% block body %}
 
 This is the home page <br>
 
+
 <form action="/working">
     <button type="submit">Go to working page </button>
 </form>
+
+
+
 
 
 {%endblock %}
