@@ -10,6 +10,8 @@ Requirements: python, pip, virtualenv
     + $ source bashaliases
     + $ activate
 3. pip install -r requirements.txt  
+4. Rename the database in the config.py file. Initialize the databas
+    + $ python manage.py db init
 
 
 
