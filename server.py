@@ -2,8 +2,13 @@
 
 import requests
 from flask import Flask, render_template, request, url_for, redirect
+from flask.ext.sqlalchemy import SQLAlchemy
+
+from config import config
 
 app = Flask(__name__)
+app.config.from_object(config)
+db = SQLAlchemy( app )
 
 
 @app.route('/')
