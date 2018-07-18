@@ -1,2 +1,4 @@
 virtualenv/*
-migrations/*
+venv/*
+*.pyc
+.DS_Store
